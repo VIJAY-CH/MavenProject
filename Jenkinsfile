@@ -8,5 +8,10 @@ pipeline {
             echo 'Hello World'
          }
       }
+         stage('Deploy-Docker') {
+               steps {
+                  sh 'docker run hello-world'
+               }
+         }
    }
 }
