@@ -1,5 +1,6 @@
+//This is my jenkins file
 pipeline {
-   agent any
+      agent any
 
    stages {
       stage('Hello') {
